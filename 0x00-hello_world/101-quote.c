@@ -10,8 +10,8 @@
  *
  * Return: Always 1 (Error).
  *
- * 
- * 
+ * Author: ShakoKal
+ * Date: 09-09-2023
  */
 int main(void)
 {
