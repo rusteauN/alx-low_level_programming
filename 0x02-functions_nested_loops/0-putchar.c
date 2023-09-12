@@ -1,7 +1,7 @@
-#include "main.h"
 /**
  * main - Print "_putchar" followed by a new line.
  */
+#include "main.h"
 int main(void)
 {
 	char putchar[] = "_putchar";
