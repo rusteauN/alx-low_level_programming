@@ -1,6 +1,5 @@
-#include "main.h"
 #include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
 
 /**
  * main - this is a function to print its name
@@ -10,17 +9,11 @@
  */
 int main(int argc, char *argv[])
 {
-	int result, num1, num2;
+	int i;
 
-	if (argc != 3)
+	for (i = 0; i < argc; i++)
 	{
-		printf("%s\n", "Error");
-		return (1);
+		printf("%s\n", argv[i]);
 	}
-	num1 = atoi(argv[1]);
-	num2 = atoi(argv[2]);
-	result = num1 * num2;
-
-	printf("%d\n", result);
 	return (0);
 }
